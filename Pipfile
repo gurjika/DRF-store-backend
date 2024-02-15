@@ -20,6 +20,7 @@ celery = "*"
 flower = "*"
 pytest-django = "*"
 model-bakery = "*"
+django-redis = "*"
 
 [dev-packages]
 autopep8 = "*"
