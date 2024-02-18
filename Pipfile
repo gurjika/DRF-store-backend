@@ -21,6 +21,9 @@ flower = "*"
 pytest-django = "*"
 model-bakery = "*"
 django-redis = "*"
+whitenoise = "*"
+gunicorn = "*"
+waitress = "*"
 
 [dev-packages]
 autopep8 = "*"
