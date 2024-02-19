@@ -55,6 +55,7 @@ def say_hello(request):
 
 
 class HelloView(APIView):
+    notify_customers.delay('hello')
     def get(self, request):
         try:
             logger.info('Calling httpbin')
