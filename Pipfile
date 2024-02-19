@@ -24,6 +24,7 @@ django-redis = "*"
 whitenoise = "*"
 gunicorn = "*"
 waitress = "*"
+dj-database-url = "*"
 
 [dev-packages]
 autopep8 = "*"
@@ -32,6 +33,7 @@ pytest-django = "*"
 pytest-watch = "*"
 locust = "*"
 django-silk = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.11"
