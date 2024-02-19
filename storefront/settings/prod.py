@@ -5,7 +5,7 @@ import dj_database_url
 SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = False
 
-ALLOWED_HOSTS = ['gurjika-prod-0bde9ea4defe.herokuapp.com']
+ALLOWED_HOSTS = ['gurjika-prod-9ff490a07222.herokuapp.com']
 
 
 

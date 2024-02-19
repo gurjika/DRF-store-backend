@@ -1,23 +1,15 @@
 from .common import *
-from dotenv import load_dotenv
-
-load_dotenv()
-
 
 SECRET_KEY = 'django-insecure-hs6j037urx6iav+7#10%-vu4l4f5@@-1_zo)oft4g7$vf2$jmp'
 DEBUG = True
-
-USER = os.getenv('USER')
-
-PASSWORD = os.getenv('PASSWORD')
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'storefront3',
         'HOST': 'localhost',
-        'USER': USER,
-        'PASSWORD': PASSWORD,
+        'USER': 'root',
+        'PASSWORD': 'Lukikosi7680BGH',
     }
 }
 
