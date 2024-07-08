@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'tags',
     'likes',
     'core',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
@@ -75,11 +76,7 @@ INTERNAL_IPS = [
     # ...
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:8001',
-    'http://127.0.0.1:8001',
-]
-
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 
@@ -202,15 +199,15 @@ CELERY_BEAT_SCHEDULE = {
 }
 
 
-CACHES = {
-    "default": {
-        "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/2",
-        "OPTIONS": {
-            "CLIENT_CLASS": "django_redis.client.DefaultClient",
-        }
-    }
-}
+# CACHES = {
+#     "default": {
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         "LOCATION": "redis://127.0.0.1:6379/2",
+#         "OPTIONS": {
+#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#         }
+#     }
+# }
 
 LOGGING = {
     'version': 1,

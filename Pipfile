@@ -27,6 +27,7 @@ waitress = "*"
 dj-database-url = "*"
 django-silk = "*"
 python-dotenv = "*"
+drf-yasg = "*"
 
 [dev-packages]
 autopep8 = "*"
