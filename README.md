@@ -14,7 +14,15 @@ CulinaryApp is a Django-based web application that allows users to create, manag
 - **Favorite Dishes**: Users can add dishes to their favorites.
 - **Chef Profiles**: Users can view and add their favorite chefs.
 
+## Tools and Technologies
 
+- **Django**: High-level Python web framework.
+- **Django Rest Framework (DRF)**: Powerful and - **flexible toolkit for building Web APIs.
+- **Django Filters**: Simplifies complex queries and - **e**nables filtering of querysets.
+- **Locust**: Open source load testing tool.
+- **Silk**: Live profiling and inspection of Django - **projects.
+- **Celery**: Distributed task queue.
+- **Flower**: Real-time monitor for Celery.
 
 ## Swagger Documentation
 
