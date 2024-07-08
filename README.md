@@ -66,6 +66,11 @@ To explore and test the API endpoints, visit the Swagger documentation at [http:
     ```sh
     docker-compose run django python manage.py createsuperuser
     ```
+7. 
+    Populate the Database
+    ```sh
+    python manage.py seed_db
+    ```
 
 6. Access the development server at [http://localhost:8000](http://localhost:8000).
 
