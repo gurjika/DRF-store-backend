@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'djoser',
     'silk',
-    'playground',
     'debug_toolbar',
     'store',
     'tags',
@@ -184,19 +183,6 @@ SIMPLE_JWT = {
 
 
 
-
-CELERY_BEAT_SCHEDULE = {
-    'notify_customers': {
-        'task': 'playground.tasks.notify_customers',
-        # task executed every monday at 7:30
-        # 'schedule': crontab(day_of_week=1, hour=7, minute=30)
-        # every 15 minutes
-        # 'schedule': crontab(minute='*/15')
-        'schedule': 5,
-        'args': ['Hello World'],
-        # kwargs: {}
-    }
-}
 
 
 # CACHES = {

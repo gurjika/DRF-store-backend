@@ -41,9 +41,7 @@ admin.site.site_header = 'Storefront Admin'
 admin.site.index_title = 'Admin'
 
 urlpatterns = [
-    path('', include('core.urls')),
     path('admin/', admin.site.urls),
-    path('playground/', include('playground.urls')),
     path('store/', include('store.urls')),
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.jwt')),
@@ -54,6 +52,10 @@ urlpatterns += [
    path('swagger/schema/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ]
+
+
+
+
 
 
 if settings.DEBUG:
